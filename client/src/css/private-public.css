@@ -1,0 +1,63 @@
+@media (max-width: 1140px) {
+  .setPrivate {
+    font-size: 2rem;
+  }
+  .setPublic {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 1051px) {
+  .setPublic {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 985px) {
+  .setPrivate {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 959px) {
+  .setPublic {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 895px) {
+  .setPrivate {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 866px) {
+  .setPublic {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 805px) {
+  .setPrivate {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 774px) {
+  .setPublic {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 716px) {
+  .setPrivate {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 681px) {
+  .setPublic {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 626px) {
+  .setPrivate {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 529px) {
+  .setPublic {
+    font-size: 0.9rem;
+  }
+}

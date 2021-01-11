@@ -1,0 +1,55 @@
+.noAccountBtn {
+  position: relative;
+  right: 75px;
+  transition-duration: 0.1s;
+}
+
+@media (max-width: 1199px) {
+  .noAccountBtn {
+    right: 65px;
+  }
+}
+@media (max-width: 991px) {
+  .noAccountBtn {
+    right: 225px;
+  }
+}
+@media (max-width: 768px) {
+  .noAccountBtn {
+    right: 48px;
+  }
+}
+@media (max-width: 575px) {
+  .noAccountBtn {
+    right: 55px;
+  }
+}
+@media (max-width: 565px) {
+  .noAccountBtn {
+    right: 45px;
+  }
+}
+@media (max-width: 555px) {
+  .noAccountBtn {
+    right: 40px;
+  }
+}
+@media (max-width: 545px) {
+  .noAccountBtn {
+    right: 30px;
+  }
+}
+@media (max-width: 521px) {
+  .noAccountBtn {
+    right: 25px;
+    font-size: 0.9rem;
+  }
+  .signInBtn {
+    width: 106px;
+  }
+}
+@media (max-width: 502px) {
+  .noAccountBtn {
+    right: 10px;
+  }
+}

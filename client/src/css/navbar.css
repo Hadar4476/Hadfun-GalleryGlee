@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #373854;
+}
+.signInNL {
+  color: #493267;
+}
+.ggLogo {
+  transition-duration: 0.7s;
+}
+.ggLogo:hover {
+  filter: saturate(2);
+}

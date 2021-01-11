@@ -1,0 +1,14 @@
+.deleteIconContainer {
+  cursor: pointer;
+}
+.grayscale {
+  transition-duration: 1s;
+}
+.grayscale:hover {
+  filter: grayscale(100%);
+}
+
+.w-19rem {
+  width: 19rem;
+  margin: 10px auto;
+}

@@ -1,0 +1,20 @@
+.fs-2rem {
+  font-size: 2rem;
+}
+.searchInput {
+  width: 600px;
+  height: 45px;
+}
+.searchBtn {
+  font-size: 1rem;
+  width: 100px;
+}
+.searchBar {
+  position: relative;
+  z-index: 999;
+}
+
+.artImage {
+  cursor: pointer;
+  height: 260px;
+}

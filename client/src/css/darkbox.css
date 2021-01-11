@@ -1,0 +1,156 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark {
+  right: 1px;
+  bottom: 1px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
+.dark_box {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 1000px;
+  background-color: white;
+  box-shadow: inset 0px 0px 10px 4px gray;
+  min-height: 200px;
+}
+.darkBoxImage {
+  width: 900px;
+  height: 500px;
+}
+.darkBoxDescriptionContainer {
+  margin: 30px auto;
+}
+.darkBoxDescription {
+  font-size: 1.2rem;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 1140px) {
+  .darkBoxImage {
+    width: 700px;
+    height: 400px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 750px;
+  }
+  .dark_box {
+    width: 80%;
+  }
+}
+@media (max-width: 1000px) {
+  .darkBoxImage {
+    width: 600px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 610px;
+    margin: 10px auto;
+  }
+}
+@media (max-width: 890px) {
+  .darkBoxImage {
+    width: 500px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 550px;
+  }
+  .darkBoxDescription {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 790px) {
+  .darkBoxImage {
+    width: 400px;
+    height: 300px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 460px;
+  }
+}
+@media (max-width: 660px) {
+  .darkBoxImage {
+    width: 350px;
+    height: 250px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 400px;
+  }
+  .darkBoxDescription {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 585px) {
+  .darkBoxImage {
+    width: 400px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 420px;
+  }
+  .dark_box {
+    width: 90%;
+  }
+}
+@media (max-width: 535px) {
+  .darkBoxImage {
+    width: 350px;
+    height: 200px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 400px;
+  }
+}
+@media (max-width: 510px) {
+  .darkBoxDescriptionContainer {
+    width: 350px;
+  }
+}
+
+@media (max-width: 414px) {
+  .darkBoxImage {
+    width: 300px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 300px;
+  }
+}
+@media (max-width: 411px) {
+  .darkBoxImage {
+    width: 280px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 280px;
+  }
+}
+@media (max-width: 360px) {
+  .darkBoxImage {
+    width: 250px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 270px;
+  }
+}
+@media (max-width: 320px) {
+  .darkBoxDescriptionContainer {
+    width: 250px;
+  }
+  .dark_box {
+    width: 99%;
+  }
+}
+@media (max-width: 280px) {
+  .darkBoxImage {
+    width: 215px;
+  }
+  .darkBoxDescriptionContainer {
+    width: 220px;
+  }
+  .darkBoxDescription {
+    font-size: 0.6rem;
+  }
+}
